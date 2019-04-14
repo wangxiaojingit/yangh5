@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="main">
+        <div class="keywordsBox">
+                <input class="keywords" type="text" placeholder="请输入关键词">
+                <span class="search iconfont icon icon-sousuo1"></span>
+        </div>
+       
+        <div class="Choice clearfix">
+            <select class="area" name="" id="">
+                <option value="">地域选择</option>
+                <option value="">郑州</option>
+                <option value="">北京</option>
+                <option value="">河南</option>
+            </select>
+
+            <select class="subject" name="" id="">
+                <option value="">学科选择</option>
+                <option value="">计算机</option>
+                <option value="">数控</option>
+                <option value="">新媒体</option>
+            </select>
+    
+        </div>
+        <ul class="lists">
+            <li>
+                <p>北京web前端招聘</p>
+                <p>少桥公司</p>
+                <p>
+                    <span>学科</span>
+                    <span>地域</span>
+                    <span>时间</span>
+                    <span>所属机构</span>
+                </p>
+            </li>
+            <li>
+                <p>北京web前端招聘</p>
+                <p>少桥公司</p>
+                <p>
+                    <span>学科</span>
+                    <span>地域</span>
+                    <span>时间</span>
+                    <span>所属机构</span>
+                </p>
+            </li>
+            <li>
+                <p>北京web前端招聘</p>
+                <p>少桥公司</p>
+                <p>
+                    <span>学科</span>
+                    <span>地域</span>
+                    <span>时间</span>
+                    <span>所属机构</span>
+                </p>
+            </li>
+            <li>
+                <p>北京web前端招聘</p>
+                <p>少桥公司</p>
+                <p>
+                    <span>学科</span>
+                    <span>地域</span>
+                    <span>时间</span>
+                    <span>所属机构</span>
+                </p>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
+<script>
+    function refreshRem() {
+        var desW = 640,
+            winW = document.documentElement.clientWidth||document.body.clientWidth;
+        ratio = winW / desW;
+        document.documentElement.style.fontSize = ratio * 100 + 'px';
+    }
+    refreshRem();
+    window.addEventListener('resize', refreshRem);
+
+</script>

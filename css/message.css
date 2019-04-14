@@ -1,0 +1,70 @@
+html,body{
+    min-height: 100%;
+}
+body{ 
+    background:linear-gradient(#8bd4fa,#159afa);
+}
+
+.main{
+    width:100%;
+}
+
+h3{
+    font-size:22px;
+    font-weight:200;
+    text-align:Center;
+    line-height:60px;
+    padding-top:20px;
+    text-shadow: -1px -1px 0px #1ff3f3;
+    
+    color: #fff;
+}
+.time{
+    color:#ff6000;
+    padding: 0 30px;
+    font-weight:bold;
+    font-size:14px;
+    position:relative;
+    padding-left: 58px;
+    height:40px;
+    line-height:40px;
+}
+.main p{
+    line-height: 30px;
+    text-indent: 2em;
+    margin-bottom: 10px;
+   
+}
+
+.time>span{
+    float:left;
+}
+.time>span{
+    margin-right:10px;
+}
+.time .sun{
+    width:80px;
+    height:80px;
+    background:url("../images/zp2.gif") center center no-repeat;
+    background-size:cover;
+    position:absolute;
+    left: -16px;
+    top: -17px;
+}
+.main{
+    padding:0 15px;
+    box-sizing: border-box;
+   
+    
+    
+}
+.mainIn{
+   width:100%;
+   border: 1px dashed #fff;
+   padding:10px;
+   box-sizing: border-box;
+   margin-top: 10px;
+   box-shadow: 0 0 10px #40ff81;
+ 
+
+}
